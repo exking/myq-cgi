@@ -1,7 +1,10 @@
-iSo there is the simple python script that meant to be placed to /usr/lib/cgi-bin on your Pi (don't forget to do chmod +x) and called from ISY like this:
+There is the simple python script that meant to be placed to /usr/lib/cgi-bin on your Pi (don't forget to do chmod +x) and called from ISY like this:
  
-To close: http://1.1.1.1/cgi-bin/myq-cgi.py?user=user@example.com&pass=secret1&cmd=close
-To open: http://1.1.1.1/cgi-bin/myq-cgi.py?user=user@example.com&pass=secret1&cmd=open
+To close: 
+http://1.1.1.1/cgi-bin/myq-cgi.py?user=user@example.com&pass=secret1&cmd=close
+
+To open: 
+http://1.1.1.1/cgi-bin/myq-cgi.py?user=user@example.com&pass=secret1&cmd=open
 
 If you want to test the script:
 http://1.1.1.1/cgi-bin/myq-cgi.py?user=user@example.com&pass=secret1&cmd=status
